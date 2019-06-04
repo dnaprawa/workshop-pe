@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  frontend:
+    image: frontend
+    ports:
+      - "8080:80"
+    networks: my_network
+    #deploy:
+    #  mode: replicated
+    #  replicas: 2
+  middleware:
+    image: middleware
+    networks: my_network
+    #deploy:
+    #  mode: replicated
+    #  replicas: 3
+  backend:
+    image: backend
+    networks: my_network
+
+networks: 
+  my_network:
+    driver: overlay
