@@ -1,20 +1,20 @@
-# Update UCP and DTR to use self provided SSL certificates
+# Update UCP and DTR to use self provided TLS certificates
 
 By the end of this exercise, you should be able to:
 
- - Exchange SSL certificates on UCP
- - Exchange SSL certificates on DTR
- - Understand the importance of proper SSL hygine on your client machines
+ - Exchange TLS certificates on UCP
+ - Exchange TLS certificates on DTR
+ - Understand the importance of proper TLS hygine on your client machines
 
-## Part 1 - Exchange SSL certificates
+## Part 1 - Exchange TLS certificates
 
-UCP as well as DTR both use SSL certificates to communicate with each other and allow external secured access. During a default installation UCP and DTR will provide self-signed certificates. For testing, those certificates can be used. In real-life scenarios you should make sure you exchange the certificates with trusted SSL certificates.
+UCP as well as DTR both use TLS certificates to communicate with each other and allow external secured access. During a default installation UCP and DTR will provide self-signed certificates. For testing, those certificates can be used. In real-life scenarios you should make sure you exchange the certificates with trusted TLS certificates.
 
 ### UCP
 
 1. Log into UCP as `administrative user` and navigate to `User Menu` and `Admin Settings`. Here you navigate to `Certificates`.
 
-![ssl-exchange01](../images/ssl-exchange01.png)/
+![TLS-exchange01](../images/TLS-exchange01.png)/
 
 2. Upload your certificates. You will at least need the host certificate, private key and CA certificate. 
 
@@ -24,7 +24,7 @@ UCP as well as DTR both use SSL certificates to communicate with each other and 
 
 1. Log into DTR as `administrative user` and navigate to `System`. Scroll down to `Domain & Proxies` and select the `Show TLS settings` link.
 
-![ssl-exchange02](../images/ssl-exchange02.png)/
+![TLS-exchange02](../images/TLS-exchange02.png)/
 
 2. Provide your `TLS private key`, your `TLS certificate chanin` and `TLS root CA` and click save.
 
@@ -65,7 +65,7 @@ docker container run --rm \
 
 ### DTR
 
-You can provide DTR with the SSL certificates during the installation. To do so you can run:
+You can provide DTR with the TLS certificates during the installation. To do so you can run:
 ```
 docker container run -it --rm docker/dtr:$DTR_VERIONS install --dtr-ca "$(cat ca.pem)" --dtr-cert "$(cat cert.pem)" --dtr-key "$(cat private.key)" --dtr-external-url $LB_URL --ucp-url $UCP_URL --ucp-username $UCP_USERNAME --ucp-password $UCP_PASSWORD --ucp-node $NODEIP --ucp-insecure-tls
 ```
@@ -77,7 +77,7 @@ docker container run -it docker/dtr:$DTR_VERIONS reconfigure --dtr-ca "$(cat ca.
 
 ## Conclusion
 
-Proper SSL Certificate installations and client side SSL hygiene are **mandatory** for DEE to function properly. Please make sure you either provide proper certificates or in house CA provisioned certificates.
+Proper TLS Certificate installations and client side TLS hygiene are **mandatory** for DEE to function properly. Please make sure you either provide proper certificates or in house CA provisioned certificates.
 
 Further Reading:
 https://docs.docker.com/reference/ucp/3.1/cli/dump-certs/

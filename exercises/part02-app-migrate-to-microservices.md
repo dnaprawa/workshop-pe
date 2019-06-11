@@ -137,9 +137,7 @@ So the following application components should be refactored/extracted out of th
 - Middleware for generating the tag cloud (currently caching word cloud in-memory)
 - Database for actually storing blog posts (currently, SQLite)
 
-**Add more hints/tips here?**
-
-## Solution (remove this section?)
+## Solution
 
 The folder 'applications/microservices' contains a couple of microservice applications and a compose file to build run them:
 
