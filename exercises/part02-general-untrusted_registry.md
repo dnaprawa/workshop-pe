@@ -9,7 +9,7 @@ By the end of this exercise, you should be able to:
 
 In general Docker highly suggests to only use trusted registries with well managed SSL certificates. It is very important to learn the usage of SSL certificates with Docker DTR. You can follow the following exercise to provide valid certificates for your environment:
 
-- [Update UCP and DTR to use self provided SSL certificates](https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md)
+- [Update UCP and DTR to use self provided SSL certificates](https://github.com/EricCollazo/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md)
 
 ## Reconfigure Docker Engine for untrusted registries
 
