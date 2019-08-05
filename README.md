@@ -6,6 +6,14 @@ As a Partner of Docker you have been provided with extra learning material. The 
  - Part 1: Create a Docker EE infrastructure as a base for further training
  - Part 2: Use the here provided exercises to learn Docker EE Features
  - Part 3: Extend your Docker EE Knowledge in combination with a simple CI/CD MAVEN pipeline based on Kubernetes
+ - Part 4: Docker Troubleshooting and Support
+
+#### Exercises - Part 1 
+
+**General**
+
+- Using your own infrastructure, create a 3-node (1 UCP, 1 DTR, and 1 Worker) Docker environment.
+
 
 #### Exercises - Part 2 
 
@@ -50,5 +58,9 @@ As a Partner of Docker you have been provided with extra learning material. The 
 - [Kubernetes Basics](https://github.com/EricCollazo/workshop-pe/blob/master/exercises/part03-kubernetes-basics.md)
 - [Deploying Jenkins within a Kubernetes Cluster](https://github.com/EricCollazo/workshop-pe/blob/master/exercises/part03-kubernetes-Jenkins.md)
 - [Docker Manifest Troubleshooting](https://github.com/EricCollazo/workshop-pe/blob/master/exercises/part03-docker-manifest-troubleshooting.md)
+
+#### Exercises - Part 4
+
+- [Docker Troubleshooting and Support Training Slides](https://github.com/ericcollazo/workshop-pe/blob/master/exercises/docker-troubleshooting-and-support.pdf)
 
 All content &copy; 2019 Docker, Inc.
