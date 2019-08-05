@@ -1,4 +1,4 @@
-# Docker MVP Partner Enablement course
+# Docker Partner Enablement course
 
 ## How to use this course
 
@@ -62,5 +62,6 @@ As a Partner of Docker you have been provided with extra learning material. The 
 #### Exercises - Part 4
 
 - [Docker Troubleshooting and Support Training Slides](https://github.com/ericcollazo/workshop-pe/blob/master/exercises/docker-troubleshooting-and-support.pdf)
+
 
 All content &copy; 2019 Docker, Inc.
