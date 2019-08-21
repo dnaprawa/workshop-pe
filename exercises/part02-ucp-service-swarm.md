@@ -129,7 +129,7 @@ With the services MYSQL01 and WORDPRESS01 you should be either able to access yo
 
 ## Part 6 - Deploy the service via Client Bundle and CLI
 
-1. Follow this instruction to use UCP Client Bundles: https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part01-clientbundle.md 
+1. Follow this instruction to use UCP Client Bundles: https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part01-clientbundle.md 
 
 2. Run the following `docker service create commands`:
 
