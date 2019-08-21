@@ -12,9 +12,9 @@ By the end of this exercise, you should be able to:
 
 You should have ran through the following exercises:
 
-https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md
-https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md 
-https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-dtr-repository-rbac.md
+https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md
+https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md 
+https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part02-dtr-repository-rbac.md
 
 
 Our user Alice from Team Alpha would like to make sure her image is signed. Additionally the DevOps Team has announced that only signed images are supposed to be scheduleable within UCP.
