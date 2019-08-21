@@ -205,7 +205,7 @@ With the deployments wordpress and wordpress-mysql you should be either able to 
 
 ## Part 4 - Deploy the service via Client Bundle and CLI
 
-1. Follow this instruction to use UCP Client Bundles: https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part01-clientbundle.md 
+1. Follow this instruction to use UCP Client Bundles: https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part01-clientbundle.md 
 
 2. Additionally you will have to set up `kubectl` for your environment. Please follow these instructions: https://docs.docker.com/ee/ucp/user-access/kubectl/ 
 
