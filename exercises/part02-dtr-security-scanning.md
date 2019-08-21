@@ -36,8 +36,8 @@ You can change the `Scan on push` function at any time by selecting the `setting
 ## Part 3 - Push an image to check out the security feature
 
 Before you begin, please make sure you have completed the following trainings:
-https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-clientbundle.md
-https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md
+https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part02-ucp-clientbundle.md
+https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part02-general-ssl-certificates.md
 
 1. Please make sure you are currently **not** using the UCP client bundle. Otherwise the Docker CLI will initiate a pull on all your worker nodes.
 
