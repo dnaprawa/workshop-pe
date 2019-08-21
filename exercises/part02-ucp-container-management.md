@@ -10,8 +10,8 @@ By the end of this exercise, you should be able to:
 
 Before you get started with the exercise please make sure you have finished one of these exercises:
 
-- https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part01-service-swarm.md
-- https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part01-service-kubernetes.md
+- https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part01-service-swarm.md
+- https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part01-service-kubernetes.md
 
 
 1. Log into your UCP installation with an admin user, e.g. `admin`
