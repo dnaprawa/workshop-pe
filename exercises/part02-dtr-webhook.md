@@ -9,7 +9,7 @@ By the end of this exercise, you should be able to:
 
 Make sure you have run through the following exercise first:
 
-https://github.com/stefantrimborn/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md
+https://github.com/ericcollazo/workshop-pe/blob/master/exercises/part02-ucp-rbac-structure.md
 
 When using CI/CD pipelines, it might be mandatory to provide webhooks so certain CI/CD pipelines can be triggered. DTR provides such a feature.
 
