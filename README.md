@@ -2,7 +2,7 @@
 
 ## How to use this course
 
-As a Partner of Docker you have been provided with extra learning material. The course is separated in 3 parts.
+As a Partner of Docker you have been provided with extra learning material. The course is separated in 4 parts.
  - Part 1: Create a Docker EE infrastructure as a base for further training
  - Part 2: Use the here provided exercises to learn Docker EE Features
  - Part 3: Extend your Docker EE Knowledge in combination with a simple CI/CD MAVEN pipeline based on Kubernetes
